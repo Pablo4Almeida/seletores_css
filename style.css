@@ -2,6 +2,8 @@
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* seletor pela teg */
@@ -13,4 +15,33 @@ p {
 .paragrafo{
     border: 1px solid #0ff;
     color: #00f;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+#titulo{
+    color: #0f0;
+    margin-bottom: 1rem;
+}
+
+/* seletor pelo atributo */
+input [type="password"] {
+    font-size: 3rem;
+}
+
+/* seletor por descendente */
+.login-form input{
+    font-size: 2rem;
+    color: #f00;
+}
+
+/* seletor de filho direto */
+.login-form > input {
+    color: #0f0;
+    width: 10rem;
+}
+
+/* pseudo classes */
+.cadastro-form input:ntg-of-type(2){
+    background: #00f;
 }
