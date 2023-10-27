@@ -1,0 +1,16 @@
+/* Seletor global = selecionar todos os elementos da pagina ou de determinado lugar */
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* seletor pela teg */
+p {
+    color: #f00;
+}
+
+/* seletor pela classe */
+.paragrafo{
+    border: 1px solid #0ff;
+    color: #00f;
+}
